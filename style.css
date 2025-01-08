@@ -101,7 +101,10 @@ main{
     border-radius: 10px;
     padding: 130px 150px;
     text-align: center;
+}
+main section{
     margin-top: 130px;
+    margin-bottom: 120px;
 }
 .about-items{
     display: flex;
@@ -110,4 +113,23 @@ main{
 .item-title{
     font-weight: 600;
     font-size: 20px;
+}
+.skill{
+    padding: 30px;
+    box-shadow: 0 6px 50px 0px rgba(0, 0, 0, 0.06) ;
+    border-radius: 5px;
+}
+.skills-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+   
+}
+.section-title{
+    text-align: center;
+}
+.section-description{
+    text-align: center;
 }
