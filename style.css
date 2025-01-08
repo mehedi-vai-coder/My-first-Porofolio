@@ -147,3 +147,23 @@ main section{
     text-align: center;
     margin-top: 20px;
 }
+
+/* footer style */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 64px;
+    border-radius: 5px;
+    display: block;
+    background-color: white;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    width: 100%;
+    border: none;
+}
