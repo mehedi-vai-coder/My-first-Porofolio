@@ -76,11 +76,13 @@ nav li a{
 }
 .banner-profile{
     width: 584px;
+    position: relative;
+    top: 6px;
 }
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 38px 0 230px;
+    margin: 0 30px 0 230px;
 }
 .banner-content{
     max-width: 591PX;
@@ -175,9 +177,6 @@ footer input[type="text"], footer input[type="email"], footer textarea{
 }
 
 /* Responsive */
-.hide{
-    display: none;
-}
 @media screen and (max-width: 576px) {
     .skills-container, .resume-container, footer , .about-items, .banner,
     nav, nav>ul {
@@ -208,5 +207,12 @@ footer input[type="text"], footer input[type="email"], footer textarea{
  
     *{
         box-sizing: border-box;
+    }
+}
+
+/* Tablet specific media query */
+@media screen and (min-width:576px) and (max-width:990px) {
+    .banner{
+        flex-direction: column;
     }
 }
