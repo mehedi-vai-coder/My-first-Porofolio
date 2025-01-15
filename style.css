@@ -208,6 +208,9 @@ footer input[type="text"], footer input[type="email"], footer textarea{
     *{
         box-sizing: border-box;
     }
+    main section{
+        margin-top: -10px;
+    }
 }
 
 /* Tablet specific media query */
